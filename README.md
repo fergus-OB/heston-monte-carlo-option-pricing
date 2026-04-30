@@ -32,6 +32,23 @@ The Heston model uses two coupled stochastic processes:
 dS_t = \mu S_t dt + \sqrt{v_t} S_t dW_t^S
 ```
 
+```math
+dv_t = \kappa(\theta - v_t)dt + \sigma\sqrt{v_t} dW_t^v
+```
+
+where:
+
+- `S_t` is the asset price
+- `v_t` is the variance process
+- `mu` is the drift
+- `kappa` controls mean reversion speed
+- `theta` is the long-run variance
+- `sigma` is volatility of volatility
+- `W_t^S` and `W_t^v` are correlated Brownian motions
+
+## Repository Structure
+
+```text
 heston-monte-carlo-option-pricing/
 ├── src/
 │   ├── heston_monte_carlo_pricing.R
@@ -43,5 +60,7 @@ heston-monte-carlo-option-pricing/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+```
+
 
 ```
