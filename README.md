@@ -10,6 +10,12 @@ The Heston model extends the Black-Scholes framework by allowing volatility itse
 
 This project simulates asset paths under stochastic volatility and applies Monte Carlo methods to estimate option values.
 
+## Project Context
+
+This project was completed as part of a university group assignment in stochastic processes / financial mathematics. The repository has been cleaned and reorganised for portfolio use.
+
+The code and outputs are presented as a learning and portfolio project based on the group assignment. Individual contributions are not separated in the original files, so this repository focuses on the modelling approach, simulation structure, and financial mathematics demonstrated by the project.
+
 ## Objectives
 
 - Simulate asset price paths using the Heston stochastic volatility model.
