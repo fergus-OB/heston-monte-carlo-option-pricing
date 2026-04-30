@@ -62,5 +62,3 @@ heston-monte-carlo-option-pricing/
 └── LICENSE
 ```
 
-
-```
