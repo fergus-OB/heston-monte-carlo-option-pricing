@@ -62,3 +62,54 @@ heston-monte-carlo-option-pricing/
 └── LICENSE
 ```
 
+## Key Features
+
+- Heston stochastic volatility path simulation
+- Monte Carlo pricing for derivative contracts
+- Correlated Brownian motion generation
+- Standard error estimation
+- Black-Scholes benchmark comparison
+- Visualisation of simulated stochastic-volatility asset paths
+
+## Example Output
+
+### Simulated Heston Asset Path
+
+![Simulated Heston Path](outputs/simulated_heston_path.jpeg)
+
+## Skills Demonstrated
+
+- R programming
+- Monte Carlo simulation
+- Stochastic differential equations
+- Stochastic volatility modelling
+- Option pricing
+- Brownian motion and correlated shocks
+- Numerical simulation
+- Financial mathematics
+- Quantitative finance modelling
+
+## Limitations
+
+This is a compact educational implementation. It does not include:
+
+- Market calibration to option chains
+- Implied volatility surface fitting
+- Greeks estimation
+- Variance reduction techniques
+- Production-grade risk system design
+
+## Future Work
+
+Possible extensions include:
+
+- Calibrating Heston parameters to real option market data
+- Adding Greeks using finite differences or pathwise estimators
+- Adding variance reduction methods
+- Comparing Monte Carlo prices against closed-form Heston prices
+- Extending the model to price exotic options
+- Rewriting the project in Python for wider quant-finance tooling support
+
+## License
+
+This project is licensed under the MIT License.
